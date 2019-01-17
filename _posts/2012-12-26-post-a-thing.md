@@ -1,5 +1,5 @@
 ---
-category: Stuff
+category: Example
 resturi: '/stuff'
 title: 'Post a thing'
 type: 'POST'

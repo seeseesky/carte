@@ -1,5 +1,5 @@
 ---
-category: Stuff
+category: Example
 resturi: '/stuff/:id'
 title: 'Update a thing'
 type: 'PUT'

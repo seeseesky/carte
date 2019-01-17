@@ -16,11 +16,11 @@ This method allows users to retrieve full set of route information such as route
 | route       | String      |   N    |
 | seq        | Int      |   N    |
 
+<br/>
+
 ### Response
 
-Sends back a collection of things.
-
-```json
+```javascript
 {
     "status": 200,
     "error": null,
@@ -41,5 +41,3 @@ Sends back a collection of things.
     ]
 }
 ```
-
-For errors responses, see the [response status codes documentation](#response-status-codes).
