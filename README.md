@@ -24,7 +24,7 @@ It' Jekyll god dammit:
 
 ### Adding a new API call
 
-You can add a new API call by simply adding a new post in the `_posts` folder. Jekyll by default forces you to specify a date in the file path: it makes us sad pandas too, but you'll have to stick to this format. You can use dates to control the order in which API calls are displayed in the interface.
+You can add a new API call by simply adding a new post in the `_posts` folder. Jekyll by default forces you to specify a date in the file resturi: it makes us sad pandas too, but you'll have to stick to this format. You can use dates to control the order in which API calls are displayed in the interface.
 
 Each API call can define a few values in its YAML header:
 
@@ -38,7 +38,7 @@ A typical header:
 
 ```
 ---
-path: '/stuff/:id'
+resturi: '/stuff/:id'
 title: 'Delete a thing'
 type: 'DELETE'
 
@@ -55,7 +55,7 @@ Adding a category to your YAML header will allows you to group methods in the na
 ```
 ---
 category: Stuff
-path: '/stuff/:id'
+resturi: '/stuff/:id'
 title: 'Delete a thing'
 type: 'DELETE'
 
