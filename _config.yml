@@ -1,6 +1,6 @@
 ---
 exclude: ['README.markdown']
 permalink: ':title'
-pygments: true
+pygments: rouge
 safe: false
 title: 'Carte'
